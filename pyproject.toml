@@ -1,0 +1,19 @@
+[project]
+name = "msch-pointillism"
+version = "0.1.0"
+description = "Animate color-sampled dots over paper with distortion, ink bleed, grain and frame-hold controls."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { file = "LICENSE" }
+dependencies = ["torch"]
+
+[project.urls]
+Repository = "https://github.com/mariobilly/msch-pointillism"
+Documentation = "https://github.com/mariobilly/msch-pointillism/blob/main/docs/NODES.md"
+"Bug Tracker" = "https://github.com/mariobilly/msch-pointillism/issues"
+
+[tool.comfy]
+# Set to the publisher ID you own at registry.comfy.org before publishing.
+PublisherId = ""
+DisplayName = "MSCH Pointillism"
+
